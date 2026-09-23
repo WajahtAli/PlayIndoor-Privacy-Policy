@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Play Indoor</title>
+  <meta name="description" content="Privacy Policy for Play Indoor mobile application. Explains how user data, location, media, payments, and account data are managed.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0F766E;
+      --primary-dark: #115E59;
+      --primary-light: #CCFBF1;
+      --text-main: #0F172A;
+      --text-muted: #475569;
+      --border-color: #E2E8F0;
+      --bg-surface: #FFFFFF;
+      --bg-page: #F8FAFC;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.7;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 48px;
+      box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+    }
+
+    header {
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 28px;
+      margin-bottom: 36px;
+    }
+
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: var(--primary-light);
+      color: var(--primary-dark);
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+
+    .meta {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .meta span {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-top: 36px;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-color);
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    ul {
+      margin: 12px 0 20px 24px;
+      color: var(--text-muted);
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: var(--text-main);
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      margin: 24px 0;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+      text-align: left;
+    }
+
+    th {
+      background-color: #F1F5F9;
+      color: var(--text-main);
+      font-weight: 600;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-muted);
+      vertical-align: top;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .callout {
+      background-color: #F0FDF4;
+      border-left: 4px solid #16A34A;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 20px 0;
+    }
+
+    .callout-title {
+      font-weight: 700;
+      color: #166534;
+      margin-bottom: 4px;
+    }
+
+    .callout p {
+      margin-bottom: 0;
+      color: #14532D;
+      font-size: 0.95rem;
+    }
+
+    .card {
+      background: #F8FAFC;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin: 20px 0;
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: var(--primary-dark);
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-color);
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding: 24px 18px;
+      }
+      h1 {
+        font-size: 1.7rem;
+      }
+      h2 {
+        font-size: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand-badge">Official Document</div>
+      <h1>Privacy Policy for Play Indoor</h1>
+      <div class="meta">
+        <span><strong>Application:</strong>&nbsp;Play Indoor (<code>app.play.indoor</code>)</span>
+        <span><strong>Effective Date:</strong>&nbsp;September 23, 2026</span>
+        <span><strong>Last Updated:</strong>&nbsp;September 23, 2026</span>
+      </div>
+    </header>
+
+    <main>
+      <p>
+        Play Indoor ("Company", "We", "Us", or "Our") is dedicated to protecting the privacy of our users. This Privacy Policy details how we collect, use, store, and safeguard your personal data when you use the <strong>Play Indoor</strong> mobile application (the "Application" or "Service"), available on Google Play (Package Name: <code>app.play.indoor</code>).
+      </p>
+      <p>
+        By accessing or using Play Indoor, you acknowledge that you have read, understood, and agreed to the practices outlined in this policy. If you do not agree with any part of this policy, please discontinue use of the Service.
+      </p>
+
+      <h2>1. Information We Collect</h2>
+      <p>We collect information you provide directly, data generated automatically, and information obtained via device permissions necessary for core sports venue booking and management features.</p>
+
+      <h3>A. Information You Provide Directly</h3>
+      <ul>
+        <li><strong>Account Profile:</strong> Full name, email address, phone number, and optional profile picture.</li>
+        <li><strong>Authentication Credentials:</strong> Secure authentication tokens and credentials when signing in via email/password, Google Sign-In, or Apple Sign-In.</li>
+        <li><strong>Bookings & Schedules:</strong> Sports ground details, court selections, reservation dates, start/end times, and playing preferences.</li>
+        <li><strong>Community & Feed Posts:</strong> Reviews, ratings, community feed posts, venue stories, and user responses shared voluntarily.</li>
+        <li><strong>Support Inquiries:</strong> In-app customer support requests, error reports, and communication records.</li>
+      </ul>
+
+      <h3>B. Financial Data & Host Direct Payout Information</h3>
+      <ul>
+        <li><strong>Players / Customers:</strong> We record transaction confirmations, digital booking receipt IDs, timestamps, and order statuses. Sensitive payment card numbers are processed directly by certified third-party payment gateways; <strong>Play Indoor does not process, retain, or store full credit or debit card numbers on its servers.</strong></li>
+        <li><strong>Hosts / Venue Partners (Direct Earnings Payouts):</strong> To transfer booking revenues directly to venue owners without administrative delays, we collect host payout details, including:
+          <ul>
+            <li>Account Title / Beneficiary Name</li>
+            <li>Bank Name and Branch Code</li>
+            <li>Account Number / International Bank Account Number (IBAN)</li>
+            <li>Designated Mobile Wallet / Digital Payment Identifiers (e.g., JazzCash, EasyPaisa, or regional equivalents)</li>
+          </ul>
+          This financial information is used strictly to disburse booking earnings directly into the host's account and to fulfill accounting and tax compliance requirements.
+        </li>
+      </ul>
+
+      <h3>C. Device Permissions</h3>
+      <p>Play Indoor requests access to specific device capabilities only when necessary to execute user-initiated actions:</p>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Feature / Permission</th>
+              <th>Technical Name</th>
+              <th>Purpose & Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Location</strong></td>
+              <td><code>ACCESS_FINE_LOCATION</code><br><code>ACCESS_COARSE_LOCATION</code></td>
+              <td>Used while the app is active in the foreground to discover nearby sports grounds, calculate distances, and display interactive venue maps. <strong>We do not track your location in the background when the app is closed.</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Camera</strong></td>
+              <td><code>CAMERA</code></td>
+              <td>Used solely when you capture a new profile photo, take pictures/videos of sports venues (for hosts), publish feed stories, or scan booking verification QR codes.</td>
+            </tr>
+            <tr>
+              <td><strong>Photos & Media</strong></td>
+              <td><code>READ_MEDIA_IMAGES</code><br><code>READ_MEDIA_VIDEO</code><br><code>READ_EXTERNAL_STORAGE</code></td>
+              <td>Used strictly to allow you to select and upload media from your gallery (profile picture, court facilities) and download booking receipts to your device.</td>
+            </tr>
+            <tr>
+              <td><strong>Biometrics</strong></td>
+              <td><code>USE_BIOMETRIC</code></td>
+              <td>Provides optional fast, secure login using device biometric sensors (Fingerprint / Face ID). <strong>Biometric data is processed on-device by your operating system and is never sent to or stored on our servers.</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Push Notifications</strong></td>
+              <td><code>POST_NOTIFICATIONS</code></td>
+              <td>Delivers critical booking confirmations, time slot reminders, venue announcements, and direct host payout receipts. Can be toggled off at any time in device settings.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>2. How We Use Your Information</h2>
+      <p>We use personal information strictly for legitimate app functionality and legal obligations:</p>
+      <ul>
+        <li><strong>Fulfill Reservations:</strong> Processing court reservations, slot scheduling, and generating entrance passes.</li>
+        <li><strong>Direct Host Payouts:</strong> Transferring earned booking revenue directly to venue host accounts.</li>
+        <li><strong>Customer Communication:</strong> Sending transactional alerts, booking receipts, and policy notices.</li>
+        <li><strong>Security & Anti-Fraud:</strong> Verifying genuine accounts, preventing double-bookings, and preventing unauthorized payment attempts.</li>
+        <li><strong>Performance Optimization:</strong> Monitoring stability, diagnostic logs, and resolving technical crashes.</li>
+      </ul>
+
+      <h2>3. Third-Party Service Providers and SDKs</h2>
+      <p>Play Indoor utilizes industry-standard third-party SDKs that process data in full compliance with Google Play Developer policies:</p>
+      <ul>
+        <li><strong>Firebase (Google LLC):</strong>
+          <ul>
+            <li><em>Firebase Authentication:</em> Identity verification and login management.</li>
+            <li><em>Cloud Firestore & Firebase Storage:</em> Encrypted cloud database and asset hosting.</li>
+            <li><em>Firebase Cloud Messaging (FCM):</em> Delivery of transactional push notifications.</li>
+            <li><em>Firebase Crashlytics:</em> Anonymized crash logs and app stability diagnostics.</li>
+            <li>Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+          </ul>
+        </li>
+        <li><strong>Google Maps Platform (Google LLC):</strong> Venue mapping, search, and distance estimation.</li>
+        <li><strong>Licensed Banking & Payment Gateways:</strong> Secure tokenized transactions and direct host payout execution.</li>
+      </ul>
+
+      <h2>4. Data Sharing and Disclosure</h2>
+      <p>We do not sell, rent, or lease your personal information to third parties or marketing brokers. Data is shared strictly as follows:</p>
+      <ul>
+        <li><strong>Between Players and Hosts:</strong> When a reservation is placed, the player's name and contact number are shared with the host to validate entrance and manage field access.</li>
+        <li><strong>Service Providers:</strong> Cloud hosting, messaging, and payout infrastructure partners bound by strict confidentiality and data protection agreements.</li>
+        <li><strong>Legal Mandates:</strong> Where required by valid law, subpoena, or competent regulatory authority.</li>
+      </ul>
+
+      <h2>5. Data Retention Policy</h2>
+      <p>We retain personal information only for as long as needed to fulfill the purposes described in this policy:</p>
+      <ul>
+        <li><strong>Account Information:</strong> Maintained for the lifetime of your active account.</li>
+        <li><strong>Booking and Financial Records:</strong> Maintained for up to 36 months to resolve billing inquiries, reconcile direct payouts, and satisfy statutory tax/audit obligations.</li>
+        <li><strong>Diagnostic Logs:</strong> Kept for a maximum of 12 months before automatic deletion or aggregation.</li>
+      </ul>
+
+      <h2>6. User Rights & Account Deletion (Google Play Compliance)</h2>
+      <div class="callout">
+        <div class="callout-title">Full Control Over Your Data</div>
+        <p>In full compliance with Google Play Store policies, Play Indoor provides seamless in-app and external account deletion options.</p>
+      </div>
+
+      <div class="card">
+        <h4>Option 1: In-App Account Deletion</h4>
+        <p>You can delete your account and all associated data at any time from within the app:</p>
+        <p><strong>Open Play Indoor</strong> &rarr; Navigate to <strong>Profile / Settings</strong> &rarr; Tap <strong>Delete Account</strong> &rarr; Confirm deletion.</p>
+      </div>
+
+      <div class="card">
+        <h4>Option 2: Email Deletion Request</h4>
+        <p>If you have uninstalled the app or cannot access your account, you can submit a deletion request by emailing us at <a href="mailto:wajahtali55@gmail.com">wajahtali55@gmail.com</a> with the subject line <em>"Account Deletion Request - Play Indoor"</em>.</p>
+      </div>
+
+      <p><strong>What gets deleted:</strong> Upon account deletion confirmation, your authentication record, personal profile, uploaded media, and contact identifiers are permanently purged from our active databases within 30 days.</p>
+
+      <h2>7. Data Security</h2>
+      <p>We employ multi-layered technical safeguards including HTTPS/TLS encryption for all network traffic, strict Firebase security rules, and encrypted storage. However, no internet transmission method or digital storage system can be guaranteed to be 100% impenetrable.</p>
+
+      <h2>8. Children's Privacy</h2>
+      <p>Play Indoor is not directed toward children under 13 years of age (or under 16 where required by local law). We do not knowingly collect personal data from children. If we discover that a minor under the applicable age has submitted personal information, we will delete that data immediately. Parents or legal guardians may contact us at <a href="mailto:wajahtali55@gmail.com">wajahtali55@gmail.com</a>.</p>
+
+      <h2>9. Changes to this Privacy Policy</h2>
+      <p>We may update this Privacy Policy from time to time to reflect operational, legal, or regulatory updates. We will notify users of material changes via an in-app notice or email notification prior to the change taking effect. The "Last Updated" date at the top of this document indicates when the latest modifications occurred.</p>
+
+      <h2>10. Contact Us</h2>
+      <p>For any questions, concerns, or data rights inquiries regarding this Privacy Policy:</p>
+      <ul>
+        <li><strong>Application:</strong> Play Indoor</li>
+        <li><strong>Package Name:</strong> <code>app.play.indoor</code></li>
+        <li><strong>Primary Contact Email:</strong> <a href="mailto:wajahtali55@gmail.com">wajahtali55@gmail.com</a></li>
+        <li><strong>Jurisdiction / Country:</strong> Pakistan</li>
+      </ul>
+    </main>
+
+    <footer>
+      &copy; 2026 Play Indoor. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
